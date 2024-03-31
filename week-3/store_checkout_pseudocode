@@ -1,0 +1,9 @@
+set cost = 0
+cost = calculate_cost_of_items()
+payment = receive_payment()
+if payment ≠ cost:
+	payment = receive_payment()
+give_customer_items()
+print_receipt()
+give_customer_receipt()
+record_transaction()
